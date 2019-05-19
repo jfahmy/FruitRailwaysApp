@@ -16,7 +16,7 @@ towns.
 ## Solution:
 Each town is a vertice in a weighted directed graph. Each town stores information about it's outgoing edges in a HashMap, where town objects are the keys for the outgoing connections and the values represent the distance.  The RailwayRouter class is responsible for taking in String input which is parses and uses to build the towns, which it stores in a town HashMap, with the town name as the key and the town object as the value. Most of the public methods in the RailwayRouter take in string input to represent a start and sometimes an end town name when searching for routes. The string input for the town name can then be used to retrieve the town object from the RailwayRouter's towns, or it will throw an error if it was found that the input was not a valid town name in our existing graph. Counting trip paths and finding routes based on the sum of given edge weights between vertices is accomplishes with DFS. Finding the shortest path from one node to another is accomplished with a traditional implementation of Dijkstra's algorithm. My project also contains an Engine class, which is the home of the Main method that kicks off the program, as well as a Printer class which is a utility class for printing some terminal output that confirms our graph can be built from the given input file.  My solution is coded in Java and uses Gradle for building and running the application.  
 
-## Running FruitRailwaysApp
+## Running FruitRailwaysApp:
 
 To build the project, navigate into the FruitRailwaysApp directory. Run with this command:
 ```
