@@ -1,6 +1,6 @@
-# FruitRailwaysApp
+# Trains Coding Kata: FruitRailwaysApp
 
-## Description:
+## Problem Description:
 The local commuter railroad services a number of towns in Kiwiland.
 Because of monetary concerns, all of the tracks are 'one-way.' That is,
 a route from Kaitaia to Invercargill does not imply the existence of a
